@@ -26,7 +26,10 @@ namespace CustomClaims.Controllers
 
             var claims = new List<Claim>();
             claims.Add(new Claim(ClaimTypes.Name, vm.User));
+
             var id = new ClaimsIdentity(claims, DefaultAuthenticationTypes.ApplicationCookie);
+            id.AddClaim(new Claim("http://localhost/identity/CustomClaim/", "ValidTerms"));
+
 
             AuthenticationManager.SignIn(new AuthenticationProperties { IsPersistent = false }, id);
 
