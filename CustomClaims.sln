@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomClaims", "CustomClaims\CustomClaims.csproj", "{79C44AAE-8E08-4BB8-9D6D-C3B4D3D02033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authnz", "Authnz\Authnz.csproj", "{C06D859D-8574-4482-87F2-9212955890C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79C44AAE-8E08-4BB8-9D6D-C3B4D3D02033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C44AAE-8E08-4BB8-9D6D-C3B4D3D02033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C44AAE-8E08-4BB8-9D6D-C3B4D3D02033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C44AAE-8E08-4BB8-9D6D-C3B4D3D02033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06D859D-8574-4482-87F2-9212955890C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06D859D-8574-4482-87F2-9212955890C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06D859D-8574-4482-87F2-9212955890C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06D859D-8574-4482-87F2-9212955890C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
