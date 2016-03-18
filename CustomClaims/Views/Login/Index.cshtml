@@ -1,0 +1,19 @@
+﻿@model CustomClaims.Models.LoginViewModel
+
+@using (Html.BeginForm())
+{
+<table>
+    <tr>
+        <td>User</td>
+        <td>@Html.TextBoxFor(m => m.User)</td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td>@Html.PasswordFor(m => m.Password)</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><button type="submit">Login</button></td>
+    </tr>
+</table>
+}
